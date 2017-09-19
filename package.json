@@ -35,5 +35,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "gulp-html-remove": "^0.1.1"
   }
 }
