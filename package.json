@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gravatar": "^1.4.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-delete-lines": "git://github.com/lemures-t/gulp-delete-lines.git",
+    "gulp-filter": "^4.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-remove-empty-lines": "0.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-strip-code": "^0.1.4",
+    "main-bower-files": "^2.5.0",
+    "run-sequence": "^1.2.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true,
+      "browser": true,
+      "jquery": true
+    },
+    "rules": {
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
+}
